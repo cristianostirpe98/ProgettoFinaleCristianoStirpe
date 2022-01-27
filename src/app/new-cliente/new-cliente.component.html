@@ -1,0 +1,56 @@
+<h1>New Cliente</h1>
+<form>
+    <div class="form-group">
+        <input type="text" [(ngModel)]="clienti.ragioneSociale" class="form-control" name="ragioneSociale" placeholder="RagioneSociale...">
+    </div>
+    <div class="form-group">
+        <input type="text" [(ngModel)]="clienti.partitaIva" class="form-control" name="partitaIva" placeholder="PartitaIva...">
+    </div>
+    <div class="form-group">
+        <label>Tipo Cliente</label>
+        <select>
+           <option>
+               
+           </option>
+        </select>
+    </div>
+    <div class="form-group">
+        <input type="text" [(ngModel)]="clienti.email" class="form-control" name="email" placeholder="Email...">
+    </div>
+    <div class="form-group">
+        <input type="text" [(ngModel)]="clienti.pec" class="form-control" name="pec" placeholder="Pec...">
+    </div>
+    <div class="form-group">
+        <input type="text" [(ngModel)]="clienti.telefono" class="form-control" name="telefono" placeholder="Telefono...">
+    </div>
+    <div class="form-group">
+        <input type="text" [(ngModel)]="clienti.nomeContatto"class="form-control" name="nomeContatto" placeholder="NomeContatto...">
+    </div>
+    <div class="form-group">
+        <input type="text" [(ngModel)]="clienti.cognomeContatto" class="form-control" name="cognomeContatto" placeholder="CognomeContatto...">
+    </div>
+    <div class="form-group">
+        <input type="text" [(ngModel)]="clienti.telefonoContatto" class="form-control" name="telefonoContatto" placeholder="TelefonoContatto...">
+    </div>
+    <div class="form-group">
+        <input type="text" [(ngModel)]="clienti.emailContatto" class="form-control" name="emailContatto" placeholder="EmailContatto...">
+    </div>
+    <div class="form-group">
+        <input type="text" [(ngModel)]="clienti.indirizzoSedeOperativa" class="form-control" name="indirizzoSedeOperativa" placeholder="IndirizzoSedeOperativa...">
+    </div>
+    <div class="form-group">
+        <input type="text" [(ngModel)]="clienti.indirizzoSedeLegale" class="form-control" name="indirizzoSedeLegale" placeholder="IndirizzoSedeLegale...">
+    </div>
+    <div class="form-group">
+        <input type="text" [(ngModel)]="clienti.dataInserimento" class="form-control" name="dataInserimento" placeholder="DataInserimento...">
+    </div>
+    <div class="form-group">
+        <input type="text" [(ngModel)]="clienti.dataUltimoContatto" class="form-control" name="dataUltimoContatto" placeholder="DataUltimoContatto...">
+    </div>
+    <div class="form-group">
+        <input type="text" [(ngModel)]="clienti.fatturatoAnnuale" class="form-control" name="fatturatoAnnuale" placeholder="FatturatoAnnuale...">
+    </div>
+    <div class="form-group">
+        <button type="button" class="btn btn-dark" (click)="addClienti">Nuovo Cliente</button>
+    </div>
+</form>
